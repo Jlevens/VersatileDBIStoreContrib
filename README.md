@@ -9,12 +9,12 @@ The existing RCS Stores **should** work but testing needs to be done to ensure t
 
 ## TODO
 
-1. Back out ConfigHash support i.e. $this->{cfg} back to $Foswiki::cfg, yuck!
-1. Pseudo-install into latest FW 2.0 and get up and running - basic testing, it needs more work anyway
-1. Document any further issues to deal with
-2. Copy and rename to VersatileStoreContrib with corresponding code changes
-3. Pseudo-install this version into latest FW 2.0 and get up and running - basic testing that the rename is OK
-3. Push this into the FW Repo to be the 'origin' version of this software, my version will be my fork for hacking and extra backup
+- [ ] Back out ConfigHash support i.e. $this->{cfg} back to $Foswiki::cfg, yuck!
+* http://foswiki.org/Development/StoresShouldBePassedConfigHash for the gory details
+- [ ] Pseudo-install into latest FW 2.0 and get up and running - basic testing, it needs more work anyway
+- [ ] Document any further issues to deal with
+- [ ] Copy and rename to VersatileStoreContrib with corresponding code changes
+- [ ] Pseudo-install this version into latest FW 2.0 and get up and running - basic testing that the rename is OK
+- [ ] Push this into the FW Repo to be the 'origin' version of this software, my version will be my fork for hacking and extra backup
 
-
-
+See also: https://github.com/Jlevens/StoreToolsContrib
